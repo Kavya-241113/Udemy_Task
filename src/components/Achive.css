@@ -21,7 +21,7 @@
     display: flex;
   align-items: center;
   gap: 10px; 
-  margin-top: 20px;
+  margin-top: 40px;
   }
  
   .achievement-card .card-body {
@@ -33,17 +33,17 @@
   }
   
   .sub-text img {
-    width: 70px; 
+    width: 60px; 
     height: auto;
     border-radius: 50%; 
     object-fit: cover;
 
-    margin-top: 5px;
+   
   }
   .a-course{
     text-decoration: none;
     color: #6d28d2;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   
   .achievement-card a {

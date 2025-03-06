@@ -16,9 +16,9 @@ const CompanySection = () => {
 
 
   return (
-    <div className="container my-5 text-center">
+    <div className="container-c my-5 text-center">
       <h5>{data.heading}</h5>
-      <div className="d-flex flex-wrap justify-content-center gap-4 mt-4 " > 
+      <div className=" company-img d-flex flex-wrap justify-content-center  mt-4 " > 
         
         
         {data.contents.map((item, index) => (

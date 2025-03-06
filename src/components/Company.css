@@ -1,23 +1,94 @@
-.container {
+/* .container-c {
     text-align: center;
     padding: 40px 20px;
     width: 100%;
+    margin-left: 10px;
     background-color: rgb(247, 245, 244);
   }
-  
-  .company-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
- 
-    margin: auto;
-  }
-  
   .company-grid img {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
     max-width: 100px;
     height: 80px;
     object-fit: contain;
   }
-  
+  .company-img{
+    gap: 55px;
+  }
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .container-c {
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+    margin-left: 10px;
+    background-color: rgb(247, 245, 244);
+}
+
+.company-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px; /
+}
+
+
+.company-img img {
+    width: 100px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Mobile L  */
+
+@media (max-width: 425px) { 
+  .container-c{
+    width: 90%;
+    margin-right: 20px;
+  }
+    .company-img {
+        gap: 20px; 
+    }
+    .company-img img {
+        width: 80px; 
+        height: auto;
+    }
+}
+/* Mobile M  */
+@media (max-width: 375px) { 
+    .company-img {
+        gap: 15px;
+    }
+    .company-img img {
+        width: 70px;
+        height: 50px;
+    }
+}
+
+/* Mobile S  */
+@media (max-width: 320px) { 
+    .company-img {
+        gap: 10px;
+    }
+    .company-img img {
+        width: 60px;
+        height: 45px;
+    }
+}
