@@ -1,0 +1,137 @@
+.achievement-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .achievement-card {
+    width: 300px; 
+   
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .card-text{
+    font-size: 14px;
+  }
+  .sub-text{
+    font-size: 13px;
+    display: flex;
+  align-items: center;
+  gap: 10px; 
+  margin-top: 20px;
+  }
+ 
+  .achievement-card .card-body {
+    padding: 20px;
+  }
+  
+  .achievement-card h5 {
+    color: #333;
+  }
+  
+  .sub-text img {
+    width: 70px; 
+    height: auto;
+    border-radius: 50%; 
+    object-fit: cover;
+
+    margin-top: 5px;
+  }
+  .a-course{
+    text-decoration: none;
+    color: #6d28d2;
+    margin-top: 10px;
+  }
+  
+  .achievement-card a {
+    display: block;
+    text-decoration: none;
+    color: #6d28d2;
+    
+  }
+  .container-A{
+    margin-left: 60px;
+  }
+  container-A h2{
+    
+    font-family:var(--font-stack-heading-serif);
+    font-weight: 700;
+    font-size: clamp(2rem, calc(2rem +(3.2 - 2)* calc((100vw - 36rem) /(144 - 36))), 3.2rem);
+    line-height: 1.25;
+    letter-spacing: -.016rem;
+    max-width: 36em;
+  }
+
+
+
+
+
+
+
+  /* mobile S */
+  @media (max-width: 320px) {
+    .achievement-grid {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+  
+    .achievement-card {
+      width: 90%; 
+    }
+  
+    .sub-text {
+      flex-direction: column; 
+      text-align: center;
+    }
+  
+    .sub-text img {
+      width: 50px;
+      height: auto;
+    }
+  
+    .a-course {
+      font-size: 14px;
+    }
+  }
+
+
+
+/* mobile M */
+  @media (max-width: 375px) {
+    .achievement-card {
+      width: 92%; 
+    }
+  
+    .sub-text {
+      flex-direction: row;
+      gap: 8px;
+    }
+  
+    .sub-text img {
+      width: 60px;
+      height: auto;
+    }
+  }
+
+
+
+  /* Mobile L */
+  @media (max-width: 425px) {
+    .achievement-card {
+      width: 95%; 
+    }
+  
+    .sub-text {
+      flex-direction: row;
+      gap: 10px;
+    }
+  
+    .sub-text img {
+      width: 65px;
+      height: auto;
+    }
+  }

@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+    padding: 40px 20px;
+    width: 100%;
+    background-color: rgb(247, 245, 244);
+  }
+  
+  .company-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+ 
+    margin: auto;
+  }
+  
+  .company-grid img {
+    max-width: 100px;
+    height: 80px;
+    object-fit: contain;
+  }
+  
